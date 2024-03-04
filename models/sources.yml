@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: tpch
-    schema: samples.tpch
+    catalog: samples
+    schema: tpch
     
     tables:
       - name: customer
